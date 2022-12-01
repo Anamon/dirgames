@@ -16,19 +16,19 @@ defaultContentLanguageInSubdir = true
 		languageFlag = '🇬🇧'
 		weight = 1
 		[languages.en.menu]
-			[[languages.en.menu.home]]
+			[[languages.en.menu.main]]
 				name = 'Home'
 				url = '/'
-				weight = 0
+				weight = 1
 	[languages.de]
 		languageName = 'Deutsch'
 		languageFlag = '🇩🇪'
 		weight = 10
 		[languages.de.menu]
-			[[languages.de.menu.home]]
+			[[languages.de.menu.main]]
 				name = 'Startseite'
 				url = '/'
-				weight = 10
+				weight = 1
 
 [params]
 	author = 'Daniel Saner'
