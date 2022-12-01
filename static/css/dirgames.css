@@ -1,0 +1,8 @@
+.sidebar {
+	background-color: #202020;
+}
+
+.sidebar-about h1 {
+	font-size: 1.75rem;
+	font-family: monospace;
+}
