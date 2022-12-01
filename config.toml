@@ -1,7 +1,19 @@
-baseURL = 'https://dirgames.com/articles'
-languageCode = 'en-us'
+baseURL = 'https://dirgames.com/editorial/'
 title = 'C:\>DIR GAMES'
 theme = 'soho'
+languageCode = 'en-us'
+enableEmoji = true
 
 [params]
+author = 'Daniel Saner'
+copyright = 'Daniel Saner'
+license = 'CC BY-NC 4.0'
+licenseURL = 'https://creativecommons.org/licenses/by-nc/4.0'
+
+themeColor = '#202020'
 customCss = ['css/dirgames.css']
+
+[taxonomies]
+category = 'categories'
+series = 'series'
+tag = 'tags'
