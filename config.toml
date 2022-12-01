@@ -1,0 +1,4 @@
+baseURL = 'https://dirgames.com/articles'
+languageCode = 'en-us'
+title = 'C:\>DIR GAMES'
+theme = 'soho'
