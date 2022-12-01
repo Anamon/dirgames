@@ -2,3 +2,25 @@
 	font-size: 1.75rem;
 	font-family: monospace;
 }
+
+.language-switch {
+	border: 2px solid #333333;
+	border-radius: 5px;
+	padding: 2px 4px;
+	font-size: 0.75rem;
+}
+
+.language-switch:hover {
+	text-decoration: none;
+	background: #333333;
+}
+
+.language-active {
+	color: #ffffff;
+	background: #666666;
+	font-weight: bold;
+}
+
+.language-inactive {
+	color: #cccccc;
+}

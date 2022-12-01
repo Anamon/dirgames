@@ -1,19 +1,45 @@
 baseURL = 'https://dirgames.com/editorial/'
 title = 'C:\>DIR GAMES'
+
 theme = 'soho'
-languageCode = 'en-us'
+
 enableEmoji = true
+enableGitInfo = true
+
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+	[languages.en]
+		languageName = 'English'
+		languageFlag = '🇬🇧'
+		weight = 1
+		[languages.en.menu]
+			[[languages.en.menu.home]]
+				name = 'Home'
+				url = '/'
+				weight = 0
+	[languages.de]
+		languageName = 'Deutsch'
+		languageFlag = '🇩🇪'
+		weight = 10
+		[languages.de.menu]
+			[[languages.de.menu.home]]
+				name = 'Startseite'
+				url = '/'
+				weight = 10
 
 [params]
-author = 'Daniel Saner'
-copyright = 'Daniel Saner'
-license = 'CC BY-NC 4.0'
-licenseURL = 'https://creativecommons.org/licenses/by-nc/4.0'
+	author = 'Daniel Saner'
+	copyright = 'Daniel Saner'
+	license = 'CC BY-NC 4.0'
+	licenseURL = 'https://creativecommons.org/licenses/by-nc/4.0'
 
-themeColor = '#202020'
-customCss = ['css/dirgames.css']
+	themeColor = '#202020'
+	customCss = ['css/dirgames.css']
 
 [taxonomies]
-category = 'categories'
-series = 'series'
-tag = 'tags'
+	category = 'categories'
+	series = 'series'
+	tag = 'tags'
