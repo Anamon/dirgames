@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:Accept-Language} ^((?!en).)*de [NC]
+RewriteRule ^$ /editorial/de/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^((?!de).)*en [NC]
+RewriteRule ^$ /editorial/en/ [L,R=301]
+
+RewriteRule ^$ /editorial/en/ [L,R=301]

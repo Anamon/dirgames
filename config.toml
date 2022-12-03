@@ -6,38 +6,68 @@ theme = 'soho'
 enableEmoji = true
 enableGitInfo = true
 
-languageCode = 'en-us'
+languageCode = 'en'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
+
+[params]
+	author = 'Daniel Saner'
+	license = 'CC BY-NC 4.0'
+	licenseURL = 'https://creativecommons.org/licenses/by-nc/4.0'
+
+	themeColor = '#202020'
+	customCss = ['css/dirgames.css']
+	
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
+[privacy]
+	[privacy.disqus]
+		disable = true
+	[privacy.googleAnalytics]
+		disable = true
+	[privacy.instagram]
+		disable = true
+	[privacy.twitter]
+		disable = true
+	[privacy.vimeo]
+		disable = true
+	[privacy.youtube]
+		disable = true
 
 [languages]
 	[languages.en]
 		languageName = 'English'
 		languageFlag = '🇬🇧'
 		weight = 1
+		[languages.en.params]
+			copyright = 'for textual content: Daniel Saner'
 		[languages.en.menu]
 			[[languages.en.menu.main]]
 				name = 'Home'
-				url = '/'
+				url = '/en'
 				weight = 1
+			[[languages.en.menu.main]]
+				name = 'About'
+				url = '/en/about'
+				weight = 2
 	[languages.de]
 		languageName = 'Deutsch'
 		languageFlag = '🇩🇪'
 		weight = 10
+		[languages.de.params]
+			copyright = 'für Textinhalte: Daniel Saner'
 		[languages.de.menu]
 			[[languages.de.menu.main]]
-				name = 'Startseite'
-				url = '/'
+				name = 'Start'
+				url = '/de'
 				weight = 1
-
-[params]
-	author = 'Daniel Saner'
-	copyright = 'Daniel Saner'
-	license = 'CC BY-NC 4.0'
-	licenseURL = 'https://creativecommons.org/licenses/by-nc/4.0'
-
-	themeColor = '#202020'
-	customCss = ['css/dirgames.css']
+			[[languages.de.menu.main]]
+				name = 'Infos'
+				url = '/de/about'
+				weight = 2
 
 [taxonomies]
 	category = 'categories'

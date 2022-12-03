@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="post">
+	<div>
+		{{ range where .Data.Pages "Title" "Home" }}
+		{{ .Content | absLangURL }}
+		{{ end }}
+	</div>
+</article>
+{{ end }}
