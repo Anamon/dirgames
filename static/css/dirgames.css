@@ -19,7 +19,7 @@
 	width: 10%;
 }
 
-.post > div > p {
+.post > div > p, .posts p {
 	font-size: 0.8rem;
 	color: #606060;
 	line-height: 1.4rem;
