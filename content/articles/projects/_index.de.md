@@ -8,4 +8,4 @@ Diese Seite führt alle derzeit verfügbaren Projekte auf. Ein Projekt umfasst e
 
 ## Plattform-Projekte
 
-- [IBM Personal Computer](platforms/ibm-pc) (1981–heute)
+- [IBM Personal Computer](platforms/ibm-pc) (1981–heute) ⏳

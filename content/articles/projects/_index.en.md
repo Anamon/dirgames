@@ -8,4 +8,4 @@ This page lists all currently available projects, which are a series of chronolo
 
 ## Platform projects
 
-- [IBM Personal Computer](platforms/ibm-pc) (1981–today)
+- [IBM Personal Computer](platforms/ibm-pc) (1981–today) ⏳
