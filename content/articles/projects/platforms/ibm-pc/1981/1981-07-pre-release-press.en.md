@@ -5,6 +5,8 @@ historicalDate = '1981-07'
 title = 'Pre-release press reports on the IBM PC'
 description = 'Press reactions before the official announcement of the IBM Personal Computer.'
 summary = 'Press reactions before the official announcement of the IBM Personal Computer.'
+series = [ 'ibmpc' ]
+seriesIbmPcPart = 1
 +++
 
 To be continued…

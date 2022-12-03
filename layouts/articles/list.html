@@ -1,36 +1,19 @@
 {{ define "main" -}}
-  {{ if eq .Title "Projects" }}
-    {{ .Content }}
-  {{ else if eq .Title "Articles" }}
-    {{ .Content }}
-    <ul class="posts">
-      {{ range where (where .Site.Pages.ByDate "Kind" "page") "Section" "articles" -}}
-        <li>
-          <div class="flex">
-            <a href="{{ .Permalink }}" class="truncate">{{ .Title }}</a>
-            {{ if eq .Kind "page" }}
-              <time class="nowrap" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z0700" }}">{{ .Date | time.Format ":date_long" }}</time>
-            {{ end }}
-          </div>
-        </li>
-      {{- end }}
-    </ul>
-  {{ else }}
-    <ul class="posts">
-      {{ .Content }}
-      {{ range where (where (.Site.Pages.ByParam "historicalDate") "Title" "!=" "Projects") "Params.Type" "project" -}}
-        <li>
-          <div class="flex">
-            {{ if eq .Params.type "project" }}
-              <span>{{ .Params.historicalDate }}</span>
-            {{ end }}
-            <a href="{{ .Permalink }}" class="truncate">{{ .Title }}</a>
-            {{ if eq .Kind "page" }}
-              <time class="nowrap" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z0700" }}">{{ .Date | time.Format ":date_long" }}</time>
-            {{ end }}
-          </div>
-        </li>
-      {{- end }}
-    </ul>
-  {{ end }}
+    {{ if eq .Title "Articles" }}
+        {{ .Content }}
+        <ul class="posts">
+            {{ range where (where .Site.Pages.ByDate "Kind" "page") "Section" "articles" -}}
+                <li>
+                    <div class="flex">
+                        <a href="{{ .Permalink }}" class="truncate">{{ .Title }}</a>
+                        {{ if eq .Kind "page" }}
+                            <time class="nowrap" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z0700" }}">{{ .Date | time.Format ":date_long" }}</time>
+                        {{ end }}
+                    </div>
+                </li>
+            {{- end }}
+        </ul>
+    {{ else }}
+        {{ .Content }}
+    {{ end }}
 {{- end }}

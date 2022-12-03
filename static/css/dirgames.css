@@ -2,24 +2,39 @@
 	max-width: 50rem;
 }
 
-.flex {
+ul.posts > li > div.flex {
 	justify-content: space-between;
+	padding: 0 5px;
+	border-bottom: 1px #d0d0d0 solid;
+	font-size: 0.8rem;
 }
-
-.flex > span {
-	width: 5%;
-	min-width: 8rem;
+ul.posts > li > div.header {
+	background-color: #d0d0d0;
+	padding: 2px 5px;
 }
-
-.flex > a {
-	width: 85%
+ul.posts > li > div.flex > .header {
+	font-size: 0.7rem;
+	font-weight: bold;
+	padding-bottom: 5px;
 }
-
-.flex > time {
+ul.posts > li > div.flex > .part {
 	width: 10%;
+	min-width: 4rem;
+}
+ul.posts > li > div.flex > .historicalDate {
+	width: 10%;
+	min-width: 7rem;
+}
+ul.posts > li > div.flex > .title {
+	width: 70%
+}
+ul.posts > li > div.flex > .date {
+	width: 10%;
+	min-width: 7rem;
+	text-align: right;
 }
 
-.post > div > p, .posts p {
+.post > div > p, .posts p, main.content > p {
 	font-size: 0.8rem;
 	color: #606060;
 	line-height: 1.4rem;

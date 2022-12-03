@@ -1,0 +1,24 @@
+<ul class="posts">
+    {{ $series := ( .Get "series" )}}
+    {{ $part := ( .Get "part" )}}
+        <li>
+            <div class="flex header">
+                <span class="part header nowrap">Part</span>
+                <span class="historicalDate header nowrap">Date</span>
+                <span class="title header">Title</span>
+                <span class="date header">Published</span>
+            </div>
+        </li>
+    {{ range where ( .Site.Pages.ByParam $part ) "Params.Series" "intersect" (slice $series) -}}
+        <li>
+            <div class="flex">
+                <span class="part nowrap">#{{ .Param $part }}</span>
+                <span class="historicalDate nowrap">{{ .Params.historicalDate }}</span>
+                <a class="title" href="{{ .Permalink }}" class="truncate">{{ .Title }}</a>
+                {{ if eq .Kind "page" }}
+                    <time class="date nowrap" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z0700" }}">{{ .Date | time.Format ":date_short" }}</time>
+                {{ end }}
+            </div>
+        </li>
+    {{- end }}
+</ul>

@@ -4,4 +4,6 @@ title = 'IBM Personal Computer'
 
 # IBM Personal Computer
 
-Beiträge sind nach historischem Datum sortiert, an welchem das Ereignis stattgefunden oder das Produkt veröffentlicht wurde. Dieses Datum wird links der Titel angezeigt. So können Sie der chronologischen Reise durch die Geschichte des IBM Personal Computers, und insbesondere seiner Spiele, folgen. Das Datum rechts der Titel zeigt an, wann der Beitrag darüber geschrieben wurde.
+Beiträge sind nach dem historischem Datum sortiert, an welchem ein Ereignis stattgefunden hat oder ein Produkt veröffentlicht wurde. Dies ist das linke Datum in der Liste. So können Sie der chronologischen Reise durch die Geschichte des IBM Personal Computers, und insbesondere seiner Spiele, folgen. Das Datum rechts zeigt an, wann der Beitrag geschrieben wurde.
+
+{{< project-list series="ibmpc" part="seriesIbmPcPart" >}}
