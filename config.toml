@@ -44,6 +44,7 @@ defaultContentLanguageInSubdir = true
 		weight = 1
 		[languages.en.params]
 			copyright = 'for textual content: Daniel Saner'
+			stringReadTimeMinutes = 'minute read'
 		[languages.en.menu]
 			[[languages.en.menu.main]]
 				name = 'Home'
@@ -53,12 +54,21 @@ defaultContentLanguageInSubdir = true
 				name = 'About'
 				url = '/en/about'
 				weight = 2
+			[[languages.en.menu.main]]
+				name = 'Latest'
+				url = '/en/articles'
+				weight = 3
+			[[languages.en.menu.main]]
+				name = 'Projects'
+				url = '/en/articles/projects'
+				weight = 4
 	[languages.de]
 		languageName = 'Deutsch'
 		languageFlag = '🇩🇪'
 		weight = 10
 		[languages.de.params]
 			copyright = 'für Textinhalte: Daniel Saner'
+			stringReadTimeMinutes = 'Minuten Lesezeit'
 		[languages.de.menu]
 			[[languages.de.menu.main]]
 				name = 'Start'
@@ -68,6 +78,14 @@ defaultContentLanguageInSubdir = true
 				name = 'Infos'
 				url = '/de/about'
 				weight = 2
+			[[languages.de.menu.main]]
+				name = 'Neues'
+				url = '/de/articles'
+				weight = 3
+			[[languages.de.menu.main]]
+				name = 'Projekte'
+				url = '/de/articles/projects'
+				weight = 4
 
 [taxonomies]
 	category = 'categories'

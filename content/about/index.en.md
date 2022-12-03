@@ -1,7 +1,7 @@
 +++
 title = 'About this site'
 description = 'A short introduction to the dirgames.com website'
-summary = 'This page contains a short introducing on what this website is about, its author, and its structure.'
+summary = 'This page contains a short introduction on what this website is about, its author, and its structure.'
 +++
 
 Hello. I'm Daniel, and what you've just found is my personal website on computer games. I have a specific interest in older and less well-known games. My personal golden age of gaming is the mid-1990s to early 2000s, and my favourite platform is, and always was, the IBM PC. You might notice this focus in the selection of games I like to spend my time with, and therefore write about. Here's a little of what that could include: the heyday of point & click adventure games, the DOS shareware era, tediously clearing up conventional memory to get sound drivers to load, the multimedia boom and interactive movies, janky and overambitious early 3D games, magazine covermount CD-ROMs with game demos, and so on.

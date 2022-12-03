@@ -2,6 +2,23 @@
 	max-width: 50rem;
 }
 
+.flex {
+	justify-content: space-between;
+}
+
+.flex > span {
+	width: 5%;
+	min-width: 8rem;
+}
+
+.flex > a {
+	width: 85%
+}
+
+.flex > time {
+	width: 10%;
+}
+
 .post > div > p {
 	font-size: 0.8rem;
 	color: #606060;
