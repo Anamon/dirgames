@@ -8,4 +8,4 @@ description = 'Pressereaktionen zum IBM Personal Computer vor dessen offizieller
 summary = 'Press reactions before the official announcement of the IBM Personal Computer.'
 +++
 
-Dass IBM daran arbeitete, in den Heimcomputer-Markt einzusteigen, wurde schon Monate vor der öffentlichen Ankündigung bekannt.
+Wird fortgesetzt…

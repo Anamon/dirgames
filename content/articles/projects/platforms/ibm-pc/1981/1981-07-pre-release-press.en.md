@@ -7,4 +7,4 @@ description = 'Press reactions before the official announcement of the IBM Perso
 summary = 'Press reactions before the official announcement of the IBM Personal Computer.'
 +++
 
-That IBM was planning to enter the home computer business became known months before the official announcement of the IBM PC.
+To be continued…
