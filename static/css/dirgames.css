@@ -56,17 +56,22 @@ ul.posts > li > div.flex > .date {
 	color: #909090;
 }
 
+div.post figure {
+	max-width: 250px;
+}
+
 figure.floatleft {
 	max-width: 30%;
 	height: auto;
 	float: left;
+	margin: 0.5rem;
 }
 
 figure.floatright {
 	max-width: 30%;
 	height: auto;
 	float: right;
-	margin: 0.3rem;
+	margin: 0.5rem;
 }
 
 figure.shot-4-3 img {
@@ -84,6 +89,15 @@ figure figcaption p {
 	font-size: 0.65rem;
 	text-align: left;
 	padding: 8px 10px 5px 10px;
+}
+
+sup {
+	line-height: 100%;
+	margin: 0 0 0 2px;
+}
+
+.footnotes li, p {
+	font-size: small;
 }
 
 .sidebar-about h1 {
