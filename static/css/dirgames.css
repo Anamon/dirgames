@@ -58,6 +58,7 @@ ul.posts > li > div.flex > .date {
 
 div.post figure {
 	max-width: 250px;
+	margin-bottom: 0;
 }
 
 figure.floatleft {
@@ -94,6 +95,12 @@ figure figcaption p {
 sup {
 	line-height: 100%;
 	margin: 0 0 0 2px;
+}
+
+.post blockquote p
+{
+	font-size: 0.8rem;
+	color: #909070;
 }
 
 .footnotes li, p {
