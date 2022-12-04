@@ -1,0 +1,10 @@
+{{ $image := .Get "src" }}
+{{ $imageThumb := printf "%s/%s.%s%s" ( path.Dir $image ) ( path.BaseName $image ) "thumb" ( path.Ext $image ) }}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+	<a href="{{ $image }}">
+		<img src="{{ $imageThumb }}" alt="{{ with .Get "caption" }}{{ . }}{{ end }}" />
+    </a>
+	<figcaption>
+		<p>{{- .Get "caption" | markdownify -}}</p>
+	</figcaption>
+</figure>
