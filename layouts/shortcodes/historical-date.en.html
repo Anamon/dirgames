@@ -1,6 +1,6 @@
 {{ $date := .Page.Params.historicalDate }}
 <p class="historicalDate">
-    This article is about an event that took place {{ cond ( gt ( len $date ) 8 ) "on" "around" }}
+    This article is about an event that took place {{ cond ( gt ( len $date ) 8 ) "on" "in" }}
     <strong>{{ if eq ( len $date ) 10 }}
             {{ $date | time | time.Format ":date_long" }}</strong>.
         {{ else if eq (len $date ) 7 }}
