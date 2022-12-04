@@ -17,6 +17,11 @@ defaultContentLanguageInSubdir = true
 
 	themeColor = '#202020'
 	customCss = ['css/dirgames.css']
+
+	[[params.socialIcons]]
+	icon = "fa-github"
+	title = "Site source on GitHub"
+	url = "https://www.github.com/anamon/dirgames"
 	
 [markup]
 	[markup.goldmark]

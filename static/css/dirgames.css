@@ -145,3 +145,7 @@ sup {
 .language-inactive {
 	color: #cccccc;
 }
+
+.social-icons a:hover {
+	color: #888888;
+}
