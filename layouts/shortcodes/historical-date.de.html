@@ -1,0 +1,11 @@
+{{ $date := .Page.Params.historicalDate }}
+<p class="historicalDate">
+    Dieser Artikel beschreibt Ereignisse, die {{ cond ( gt ( len $date ) 8 ) "am" ( cond ( eq ( len $date ) 4 ) "im Jahr" "im" ) }}
+    <strong>{{ if eq ( len $date ) 10 }}
+            {{ $date | time | time.Format ":date_long" }}</strong>
+        {{ else if eq (len $date ) 7 }}
+            {{ printf "%s%s" $date "-01" | time | time.Format "January 2006" }}</strong>
+        {{ else }}
+            {{ $date }}</strong>
+        {{ end }}stattfanden.
+</p>

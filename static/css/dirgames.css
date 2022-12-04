@@ -49,6 +49,13 @@ ul.posts > li > div.flex > .date {
 	color: #306090;
 }
 
+.post > div > p.historicalDate {
+	font-size: smaller;
+	font-style: italic;
+	margin-left: 1.5rem;
+	color: #909090;
+}
+
 figure.floatleft {
 	max-width: 30%;
 	height: auto;
