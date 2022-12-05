@@ -1,8 +1,8 @@
-{{ $page := .Page.GetPage (.Get "page") }}
-{{ $image := $page.Resources.GetMatch (.Get "src") }}
+{{ $image := printf "%s/%s" "/editorial/images/screenshots" ( .Get "src" ) }}
+{{ $imageThumb := printf "%s%s/%s/%s.%s%s" .Site.BaseURL "images/screenshots" ( path.Dir ( .Get "src" ) ) ( path.BaseName $image ) "thumb" ( path.Ext $image ) }}
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-	<a href="/editorial/screenshot-viewer.php?src={{ $image.RelPermalink }}&lang={{ .Get "lang" }}&aspect={{ .Get "aspect" }}">
-		<img src="{{ .Get "src" }}" alt="{{ with .Get "caption" }}{{ . }}{{ end }}" />
+	<a href="/editorial/screenshot-viewer.php?src={{ $image }}&lang={{ .Get "lang" }}&aspect={{ .Get "aspect" }}">
+		<img src="{{ $imageThumb }}" alt="{{ with .Get "caption" }}{{ . }}{{ end }}" />
     </a>
 	<figcaption>
 		<p>{{- .Get "caption" | markdownify -}}</p>

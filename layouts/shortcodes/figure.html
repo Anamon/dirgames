@@ -1,5 +1,5 @@
-{{ $image := .Get "src" }}
-{{ $imageThumb := printf "%s/%s.%s%s" ( path.Dir $image ) ( path.BaseName $image ) "thumb" ( path.Ext $image ) }}
+{{ $image := printf "%s%s/%s" .Site.BaseURL "images/figures" ( .Get "src" ) }}
+{{ $imageThumb := printf "%s%s/%s/%s.%s%s" .Site.BaseURL "images/figures" ( path.Dir ( .Get "src" ) ) ( path.BaseName $image ) "thumb" ( path.Ext $image ) }}
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
 	<a href="{{ $image }}">
 		<img src="{{ $imageThumb }}" alt="{{ with .Get "caption" }}{{ . }}{{ end }}" />

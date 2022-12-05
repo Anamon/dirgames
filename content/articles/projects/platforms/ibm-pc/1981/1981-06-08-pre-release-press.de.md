@@ -13,7 +13,7 @@ seriesIbmPcPart = 1
 
 IBM hat es erstaunlich lange geschafft, ihren großen Eintritt in den Heimcomputermarkt aus der öffentlichen Gerüchteküche fernzuhalten. Die früheste Erwähnung des künftigen IBM Model 5150 Personal Computers, die ich in der Presse finden konnte, findet sich in der Ausgabe vom 8. Juni 1981 des zweiwöchentlich erscheinenden Magazins InfoWorld[^iw] (danke an Jimmy Maher für den Hinweis[^da]), nur wenig mehr als zwei Monate vor der öffentlichen Ankündigung am 12. August. Das ist umso erstaunlicher wenn man bedenkt, mit wie vielen anderen Firmen IBM zusammenarbeitete um die neue Maschine zusammenzustellen. Die berüchtigten Geheimhaltungsvereinbarungen IBMs, welche einigen Firmen, wie Digital Research, solche Kopfschmerzen bereiteten, hatten offensichtlich ihren Zweck erfüllt.
 
-{{% figure class="floatright" caption="Umschlag der InfoWorld vom 8. Juni 1981" src="../1981-06-08-infoworld-cover.avif" %}}
+{{% figure class="floatright" caption="Umschlag der InfoWorld vom 8. Juni 1981" src="ibm-pc/1981-06-08-infoworld-cover.avif" %}}
 Die "zuverlässige interne Quelle" bei IBM hat InfoWorld mit zahlreichen, präzisen technischen Details zur neuen Maschine versorgt. Die Spezifikationen waren überzeugend, aber nicht überwältigend – ganz unabhängig von den Qualitäten des Computers selbst war die weitaus größere Neuigkeit, dass IBM überhaupt vorhatte in den Markt der Heimcomputer einzusteigen, einer Branche die zu diesem Zeitpunkt von Apple, Commodore und Tandy dominiert wurde. Mit über 350'000 Mitarbeitern und einem Umsatz von über 29 Milliarden Dollar im Jahr 1981[^ibm] war IBM da ein ganz anderes Kaliber. Die Gefühle schwankten zwischen Freude über die Glaubwürdigkeit, welche die Präsenz von IBM dem noch jungen Feld verleihen würde, und Sorge darum, was eine finanziell so übermächtige Firma für den Rest der Branche bedeuten könnte. Ein deutlicher Hinweis auf diese Bedenken ist die Überschrift, die InfoWorld ihrem Beitrag verpasste: "IBM to Pounce on Micro Market" – eine Formulierung, die IBMs Ankunft im Mikrocomputer-Markt übersetzt irgendwo zwischen "darauf stürzen" und "darüber herfallen" einordnet. Nicht eine Wortwahl die auf Zweifel darüber hindeutet, ob dies Spuren hinterlassen würde.
 
 Zu dieser Zeit hat IBM immer noch versucht, die Sache geheim zu halten. InfoWorld hatte wenig Erfolg als sie versuchten, über offizielle Kanäle mehr von IBM zu erfahren. Die Antwort eines ihrer Kontakte:
@@ -28,7 +28,7 @@ InfoWorld zeigte sich unbeeindruckt und beschloss den Artikel:
 > 
 > *"*InfoWorld* wird einen ausführlichen Bericht über dieses "Gerücht" publizieren nachdem es diesen Juli in New York vorgestellt wurde."*
 
-{{% figure class="floatleft" caption="Umschlag des Magazins BYTE im Juli 1981" src="../1981-07-byte-cover.avif" %}}
+{{% figure class="floatleft" caption="Umschlag des Magazins BYTE im Juli 1981" src="ibm-pc/1981-07-byte-cover.avif" %}}
 Eine andere Vorankündigung erschien als Leitartikel in der Ausgabe vom Juli 1981 des Magazins BYTE[^byte]. Chefredakteur Chris Morgan verdeutlichte, welchen Einfluss auf die Geschichte der Heimcomputer er von der Neuheit erwartete. Während es auch Gerüchte um Markteintritte von anderen Großunternehmen wie DEC und General Electric gab, war es seiner Meinung nach keine Frage: alles dreht sich um IBM. Es gibt wohl keine besseren Worte als die von Morgan um uns verstehen zu helfen, welche Wichtigkeit Branchenkenner dem kommenden Ereignis zuschrieben:
 
 > IBM's new personal computer […] is far and away the media star, not because of its features, but because it exists at all.
@@ -55,4 +55,4 @@ Im Artikel findet man auch eine Erwähnung des Betriebssystems, das IBM denjenig
 [^ibm]: IBM Archives: The History of IBM – 1981:  
   https://www.ibm.com/ibm/history/history/year_1981.html
 [^byte]: BYTE Magazine Vol. 6 No. 7 (Juli 1981), S. 6 und 10:  
-  https://archive.org/details/byte-magazine-1981-07/
+  https://archive.org/details/byte-magazine-1981-07/page/n7/mode/2up
